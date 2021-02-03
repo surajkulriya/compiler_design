@@ -18,8 +18,9 @@ or
 	int a;
 	a={1,2,3}
 `
+It reports error on such code input.
 
-# A3 Intermediate code generator
+## A3 Intermediate code generator
 Produces intermediate code int TAC(three address code) format of a given code.
 For instance
 input code=
