@@ -3,23 +3,23 @@ This is basically a java compiler which checks the grammer of a java code i.e. i
 <br/>
 ### A1 Lexical analyser
 checks grammer of the input code i.e. token sequence.<br/>
-The grammer used in this code is simpler then the standard grammer of java program. 
+The grammer used in this code is simpler then the standard grammer of java program. <br/>
 `
-	(<identifier> <identifier>)*
-	(<identifier> <compstat> <identifier>)*
+	(<identifier> <identifier>)*<br/>
+	(<identifier> <compstat> <identifier>)*<br/>
 `
 %where compstat = "<" | ">" | "="
 
 ### A2 Syntax analyser
 Checks whether the assignment statements written in the code are valid or not. For instance are we writing code like this<br/>
 `
-	int a="string";
+	int a="string";<br/>
 `
-or<br/>
+<br/>or<br/>
 `
-	int a;
-	a={1,2,3}
-`
+	int a;<br/>
+	a={1,2,3};<br/>
+`<br/>
 It reports error on such code input.<br/>
 
 ### A3 Intermediate code generator
@@ -29,11 +29,12 @@ input code=
 `
 	int a=b+c+d;
 `
+<br/>
 output code=<br/>
 `
-	int temp_var1=b+c;
-	int temp_var2=temp_var1+d;
-	int a=temp_var2;
+	int temp_var1=b+c;<br/>
+	int temp_var2=temp_var1+d;<br/>
+	int a=temp_var2;<br/>
 `
 
 ### A4 Scope analyser
@@ -41,12 +42,12 @@ Prints all the variables in a given scope.<br/>
 For instance<br/>
 input code=<br/>
 `
-	.
-	.
-	.
-	.
-	.
-	printvars();
+	.<br/>
+	.<br/>
+	.<br/>
+	.<br/>
+	.<br/>
+	printvars();<br/>
 `
 <br/>
 output code=<br/>
