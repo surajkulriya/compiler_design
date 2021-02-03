@@ -5,10 +5,11 @@ This is basically a java compiler which checks the grammer of a java code i.e. i
 checks grammer of the input code i.e. token sequence.<br/>
 The grammer used in this code is simpler then the standard grammer of java program. <br/>
 `
+
 	(<identifier> <identifier>)*
 	(<identifier> <compstat> <identifier>)*
 `
-%where compstat = "<" | ">" | "="
+%where compstat = "<" | ">" | "=".
 
 ### A2 Syntax analyser
 Checks whether the assignment statements written in the code are valid or not. For instance are we writing code like this<br/>
@@ -17,7 +18,9 @@ Checks whether the assignment statements written in the code are valid or not. F
 `
 <br/>or<br/>
 `
-	int a;   
+
+	int a;
+
 	a={1,2,3};
 `<br/>
 It reports error on such code input.<br/>
@@ -32,9 +35,13 @@ input code=
 <br/>
 output code=<br/>
 `
+
 	int temp_var1=b+c;
+
 	int temp_var2=temp_var1+d;
+
 	int a=temp_var2;
+
 `
 
 ### A4 Scope analyser
@@ -48,6 +55,7 @@ input code=<br/>
 	.
 	.
 	printvars();
+
 `
 <br/>
 output code=<br/>
