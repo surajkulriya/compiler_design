@@ -62,13 +62,11 @@ input code=<br/>
 	printvars();
 
 
-<br/>
 output code=<br/>
 
 
 	a b c d ....
 
 
-<br/>
 % where a b c d... are variables that are accessible in the given scope.<br/>
 
