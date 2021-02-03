@@ -17,7 +17,7 @@ Checks whether the assignment statements written in the code are valid or not. F
 `
 <br/>or<br/>
 `
-	int a;\
+	int a;   
 	a={1,2,3};
 `<br/>
 It reports error on such code input.<br/>
