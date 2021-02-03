@@ -1,0 +1,15 @@
+Lannister joffrey;
+Baratheon stannis;
+Lannister Cersei;
+Lannister jamie;
+Stark ned;
+Stark Rob;
+Stark Bran;
+Tyrell hush;
+ned =k jamie;
+stannis =p joffrey;
+jamie =p stannis;
+stannis =k Rob;
+Bran =k joffrey;
+Rob =k ned;
+hush >p hush;

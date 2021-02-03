@@ -1,0 +1,5 @@
+#!/bin/sh
+java -jar jtb132.jar grammer.jj
+javacc jtb.out.jj
+javac Main.java
+java Main < /home/surajkulriya/compiler_design/cs502-a2-public-testcases/PubT1.java

@@ -1,0 +1,5 @@
+#!/bin/sh
+java -jar jtb132.jar lasagna.jj
+javacc jtb.out.jj
+javac Main.java
+java Main < /home/surajkulriya/compiler_design/cs502-a4-public-testcases/BA05.java >out1.java
