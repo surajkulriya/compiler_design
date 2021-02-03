@@ -16,13 +16,13 @@ Checks whether the assignment statements written in the code are valid or not. F
 
 	int a="string";
 
-<br/>or<br/>
+or<br/>
 
 
 	int a;
 
 	a={1,2,3};
-<br/>
+
 It reports error on such code input.<br/>
 
 ### A3 Intermediate code generator
@@ -32,7 +32,6 @@ input code=
 
 	int a=b+c+d;
 
-<br/>
 output code=<br/>
 
 
