@@ -2,10 +2,12 @@
 This is basically a java compiler which checks the grammer of a java code i.e. it's token sequence, checks scope of a variable and produces intermediate code in TAC(three address code) format.
 
 # A1 Lexical analyser
-checks grammer of the input code i.e. token sequence.
+checks grammer of the input code i.e. token sequence.<br/>
 The grammer used in this code is simpler then the standard grammer of java program. 
-(<identifier> <identifier>)*
-(<identifier> <compstat> <identifier>)*
+`
+	(<identifier> <identifier>)*
+	(<identifier> <compstat> <identifier>)*
+`
 %where compstat = "<" | ">" | "="
 
 # A2 Syntax analyser
