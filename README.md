@@ -49,11 +49,17 @@ Prints all the variables in a given scope.<br/>
 For instance<br/>
 input code=<br/>
 `
+
 	.
+
 	.
+
 	.
+
 	.
+
 	.
+
 	printvars();
 
 `
